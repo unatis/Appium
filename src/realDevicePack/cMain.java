@@ -29,8 +29,6 @@ public class cMain {
 		
 		System.out.print("Application started");
 		
-		//Thread.sleep(5000);
-		
 		WebElement Element = driver.findElement(By.xpath("//android.widget.TextView[4]"));
 		
 		Element.click();
