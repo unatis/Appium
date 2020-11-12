@@ -17,9 +17,7 @@ public class cMain {
 		capabilities.setCapability("deviceName", "Mi Phone");	
 		capabilities.setCapability("udid", "7e81c476");		
 		capabilities.setCapability("platformName", "Android");
-		capabilities.setCapability("platformVersion", "10");	
-		//capabilities.setCapability("appPackage", "com.google.android.dialer");
-		//capabilities.setCapability("appActivity", "com.android.dialer.app.DialtactsActivity");
+		capabilities.setCapability("platformVersion", "10");		
 		capabilities.setCapability("appPackage", "com.miui.calculator");
 		capabilities.setCapability("appActivity", "com.miui.calculator.cal.CalculatorActivity");
 				
