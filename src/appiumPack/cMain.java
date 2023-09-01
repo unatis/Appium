@@ -25,7 +25,7 @@ public class cMain {
 		capabilities.setCapability("udid", "emulator-5554");		
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("platformVersion", "9");	
-		capabilities.setCapability("appPackage", "com.android.calculator2");
+		capabilities.setCapability("appPackage", "com.google.android.calculator");
 		capabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 						
 		URL url = new URL("http://0.0.0.0:4723/wd/hub");		
