@@ -50,8 +50,7 @@ public class cMain {
 		
 		driver.findElement(By.xpath("//android.widget.Button[@content-desc=\"equals\"]")).click();
 		
-		String TextFound = driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView")).getText();
-		
+		String TextFound = driver.findElement(By.id("com.google.android.calculator:id/result_final"))).getText();
 		if(TextFound.contains("10")) 
 		{
 			System.out.print(System.lineSeparator() + "Result is correct " + TextFound);
